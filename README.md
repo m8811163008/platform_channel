@@ -1,16 +1,11 @@
 # batterylevel
 
-A new Flutter project.
+Flutter uses a flexible system that allows you to call platform-specific APIs in a language that works directly with those APIs:
 
-## Getting Started
+Kotlin or Java on Android
+Swift or Objective-C on iOS
 
-This project is a starting point for a Flutter application.
+On the client side, MethodChannel enables sending messages that correspond to method calls. On the platform side, MethodChannel on Android (MethodChannelAndroid) and FlutterMethodChannel on iOS (MethodChanneliOS) enable receiving method calls and sending back a result.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Check here for Swift code: https://github.com/m8811163008/platform_channel/blob/main/ios/Runner/AppDelegate.swift
+Check here for Kotlin code: https://raw.githubusercontent.com/m8811163008/platform_channel/main/android/app/src/main/kotlin/com/example/batterylevel/MainActivity.kt
