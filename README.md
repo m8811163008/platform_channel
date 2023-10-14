@@ -2,8 +2,8 @@
 
 Flutter uses a flexible system that allows you to call platform-specific APIs in a language that works directly with those APIs:
 
-Kotlin or Java on Android
-Swift or Objective-C on iOS
+* Kotlin on Android
+* Swift  on iOS
 
 On the client side, MethodChannel enables sending messages that correspond to method calls. On the platform side, MethodChannel on Android (MethodChannelAndroid) and FlutterMethodChannel on iOS (MethodChanneliOS) enable receiving method calls and sending back a result.
 
